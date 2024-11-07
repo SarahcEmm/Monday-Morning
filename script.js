@@ -429,7 +429,7 @@ const storyData = {
   },
   "timeForCoffee": {
     text: "There's always time for coffee! You feel energised and head out into the cool November air. Do you head to the train station or go through the park?",
-    choices: { "Station": "station", "Through the Park": "throughThePark" }
+    choices: { "Station": "station", "Through the Park": "throughPark" }
   },
   "toaster": {
     text: "You shimmy towards the toaster, trying to not draw attention to yourself. You see something inside the toaster. Do you reach in and take it or carry on exploring?",
