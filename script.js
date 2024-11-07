@@ -73,7 +73,7 @@ const storyData = {
   },
   "cornflower": {
     text: "You pick the cornflower blue tie. (good choice!) You are looking dapper today! Blue is your colour. You head out of your grotty flat and into the cool November air. Do you make your way to the train station, catch a bus or wander through the park, it really is a lovely day?",
-    choices: { "Train": "train", "Bus": "bus", "Park": "park" }
+    choices: { "Train": "train", "Bus": "bus", "Park": "parkAgainAgain" }
   },
   "demandAnswers": {
     text: "You demand answers from your colleague. They tell you the company has been having a rat problem and she thinks it's related to the copious amounts of biscuits they eat in the office. They are very upset that you have stuck your nose in their business and along with being a Ju Jitsu master they also do bare knuckle boxing at the weekends (who knew). With one punch you are killed. YOU LOSE!",
@@ -143,6 +143,10 @@ const storyData = {
     text: "You go home. Do you shower or call it a day and play video games?",
     choices: { "Shower": "shower", "Play Video Games": "videoGames" }
   },
+  "goToOffice": {
+    text: "You enter the office and open the door. Standing before you is a giant bug, you've fixed it, but no doubt it will turn up again ( a little programming insight!)! The bug attacks and bites off your head. You slump to the floor. You are dead. YOU LOSE!",
+    choices: {}
+  },
   "gym": {
     text: "You enter the gym. it's empty except for a muscle man working out in the corner. You give him a wink and carry on. Do you work out on the treadmill or go to the pool ?",
     choices: { "Treadmill": "treadmill", "Pool": "pool" }
@@ -182,6 +186,10 @@ const storyData = {
   "leaveFox": {
     text: "Leave the poor animals alone! You are bitten and catch rabies. Well done! Bet you feel like a right wally. Anyway you die a horrible death. YOU LOSE!",
     choices: {}
+  },
+  "leaveHedgehog": {
+    text: "You arrive at work sweating (good job you had that shower!) the boss wants to see you in his office. (Uh oh!)Do you make your excuses and run or join him in the office?",
+    choices: { "Make Excuses": "run", "Go to Office": "goToOffice" }
   },
   "leaveHim": {
     text: "You arrive at work sweating (good job you had that shower!) the boss wants to see you in his office. (Uh oh!) Do you make your excuses and run or join him in the office?",
@@ -263,8 +271,16 @@ const storyData = {
     text: "You wander through the park and catch sight of a friendly fox. Do you pet him or leave him?",
     choices: { "Pet Fox": "petFox", "Leave Fox": "leaveFox" }
   },
+  "parkAgainAgain": {
+    text: "You take a gander through the park and approach an inquisitive hedgehog. Don't pet him (unless you're stupid). Do you pet him (eye roll) or leave him?",
+    choices: { "Pet Hedgehog": "petHedgehog", "Leave Hedgehog": "leaveHedgehog" }
+  },
   "petFox": {
     text: "You pet the fox. What an idiot! You catch rabies. You lose your job and become homeless. Whilst sleeping in a shop doorway you are killed by a bad batch of heroin. YOU LOSE!",
+    choices: {}
+  },
+  "petHedgehog": {
+    text: "You pet the hedgehog. You haven't had a tetnus shot for a while. You die. YOU LOSE!",
     choices: {}
   },
   "petHim": {
