@@ -59,6 +59,7 @@ body {
   width: 100%; 
   max-width: 300px; 
   transition: background-color 0.3s;
+  padding: 15px;
 }
 
 .choice-btn:hover {
